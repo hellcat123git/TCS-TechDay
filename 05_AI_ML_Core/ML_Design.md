@@ -6,15 +6,19 @@ tags: [ml, design, dataset]
 **Purpose:** Consolidates Dataset tracking and Model Architecture.
 
 ## 📊 Dataset Registry
-- **Source:** [URL]
-- **Preprocessing:** [Steps like Tokenization, Normalization]
-- **Splits:** Train (80%), Val (10%), Test (10%)
-> [!warning] Biases: Note any data quirks here.
+- **Source:** Synthetic datasets representing applicant profiles, plus Structured JSON/CSV for permit eligibility criteria. Also public municipal guideline documents for RAG (Retrieval-Augmented Generation).
+- **Preprocessing:** 
+  - Map criteria from JSON/CSV to logical rules suitable for AI prompt conditioning.
+  - Anonymize / Synthesize all user input (Strictly NO personal data used).
+> [!warning] Biases: Ensure synthetic data covers edge cases and multiple permit types to guarantee robust reasoning.
 
 ## 🤖 Model Architecture
-- **Type:** [e.g., Transformer, CNN]
-- **Framework:** [e.g., PyTorch, TensorFlow]
-- **Hyperparameters:** LR=[3e-4], Batch=[32], Optimizer=[AdamW]
+- **Type:** Generative AI Agent (LLM) with Tool-Use / RAG.
+- **Framework:** LangChain / LlamaIndex / Composio (for tools). 
+- **Core Capabilities:** 
+  - Natural Language Understanding (NLU) to parse user inputs.
+  - Rule-Based Reasoning Engine (combining LLM logic with JSON criteria).
+  - Response Generation (Clear, actionable feedback).
 
 ---
 ## 🔗 Navigation & Context

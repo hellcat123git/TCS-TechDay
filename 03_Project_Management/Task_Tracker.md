@@ -3,12 +3,15 @@
 **Purpose:** Consolidates active Sprint tasks and the future Backlog.
 
 ## 🏃 Active Sprint Tasks
-- [ ] Define MVP scope in [[Product_Requirements]]
-- [ ] Document data sources in [[ML_Design]]
+- [ ] Parse municipal guidelines into structured JSON/CSV criteria.
+- [ ] Generate synthetic applicant profile data.
+- [ ] Build the GenAI conversational logic (NLU + Rule-Based Reasoning).
+- [ ] Develop the simple UI for the chatbot.
 
-## 🧊 Backlog (Future)
-- Setup CI/CD pipeline
-- Write unit tests for API
+## 🧊 Backlog (Deliverables)
+- Document eligibility rules integration.
+- Record demo video showing eligibility checks for multiple permit types.
+- Ensure 80%+ assessment accuracy across test cases.
 
 ---
 ## 🔗 Navigation & Context
