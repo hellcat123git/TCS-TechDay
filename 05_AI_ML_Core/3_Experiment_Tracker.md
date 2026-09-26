@@ -14,6 +14,8 @@ tags: [experiments, logs]
 *If an experiment yields highly unusual or breakthrough results, create a dedicated note and link it below.*
 - [[exp-001_DeepDive]] (Example link)
 
-## Related Context
-- Architecture used: [[2_Model_Architecture]]
-- Data used: [[1_Dataset_Registry]]
+---
+## 🔗 Navigation & Context
+- **Up:** [[Index]]
+- **State:** [[Agent_Handoff]]
+- **Architecture & Data:** [[ML_Design]]

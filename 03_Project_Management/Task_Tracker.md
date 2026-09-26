@@ -10,5 +10,8 @@
 - Setup CI/CD pipeline
 - Write unit tests for API
 
-## Connections
-- Implements: [[Product_Requirements]]
+---
+## 🔗 Navigation & Context
+- **Up:** [[Index]]
+- **State:** [[Agent_Handoff]]
+- **Tasks originate from:** [[Product_Requirements]]

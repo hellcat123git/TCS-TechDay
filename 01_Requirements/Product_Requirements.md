@@ -11,5 +11,9 @@ What problem is this AI/ML project solving?
 - **US-01:** As a [user], I want [action] so that [benefit].
 - **US-02:** As a [user], I want [action] so that [benefit].
 
-## Connections
-- Implemented via: [[System_Design]] and [[ML_Design]]
+---
+## 🔗 Navigation & Context
+- **Up:** [[Index]]
+- **State:** [[Agent_Handoff]]
+- **Implemented via:** [[System_Design]] & [[ML_Design]]
+- **Tracked in:** [[Task_Tracker]]

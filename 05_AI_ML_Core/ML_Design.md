@@ -16,6 +16,9 @@ tags: [ml, design, dataset]
 - **Framework:** [e.g., PyTorch, TensorFlow]
 - **Hyperparameters:** LR=[3e-4], Batch=[32], Optimizer=[AdamW]
 
-## Connections
-- Track training runs in: [[3_Experiment_Tracker]]
-- Integrates into the app via: [[System_Design]]
+---
+## 🔗 Navigation & Context
+- **Up:** [[Index]]
+- **State:** [[Agent_Handoff]]
+- **Training Runs logged in:** [[3_Experiment_Tracker]]
+- **App Integration:** [[System_Design]]

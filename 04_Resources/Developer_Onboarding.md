@@ -9,5 +9,8 @@
 - **MVP:** Minimum Viable Product
 - **PRD:** Product Requirements Document
 
-## Connections
-- Stack reference: [[System_Design]]
+---
+## 🔗 Navigation & Context
+- **Up:** [[Index]]
+- **State:** [[Agent_Handoff]]
+- **Stack Reference:** [[System_Design]]

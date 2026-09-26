@@ -18,3 +18,9 @@
 1. **Never lose state:** Always update this file before ending a turn.
 2. **Document decisions:** Log architectural choices in [[System_Design]] or [[ML_Design]].
 3. **Reproducibility:** Log all training runs in [[3_Experiment_Tracker]].
+
+---
+## 🔗 Navigation & Context
+- **Up:** [[Index]]
+- **Core Requirements:** [[Product_Requirements]]
+- **Active Tasks:** [[Task_Tracker]]
