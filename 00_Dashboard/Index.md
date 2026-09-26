@@ -1,21 +1,19 @@
 # 🏠 Project Dashboard
 
-Welcome to the central hub for the project. This vault is optimized for Human-AI collaboration on Machine Learning projects.
+Welcome to the streamlined central hub for this AI/ML project.
 
 ## 🔄 Active State
-- **[[Handoff_State]]**: **START HERE.** Read this to know exactly what was happening last.
-- **[[Agent_Directives]]**: Rules for AI agents operating in this workspace.
+- **[[Agent_Handoff]]**: **START HERE.** Read this to know the exact state, what to do next, and the rules of the repo.
 
-## 🧠 AI / ML Core
-- **Datasets:** [[1_Dataset_Registry]]
-- **Modeling:** [[2_Model_Architecture]]
-- **Experiments:** [[3_Experiment_Tracker]]
+## 🧠 Core Context
+- **Requirements:** [[Product_Requirements]]
+- **System Architecture:** [[System_Design]]
+- **AI/ML Design:** [[ML_Design]]
+- **ML Experiments Log:** [[3_Experiment_Tracker]]
 
-## 🧭 General Navigation
-- **Requirements:** [[PRD]] | [[User Stories]]
-- **Architecture:** [[System Architecture]] | [[Database Schema]] | [[API Endpoints]]
-- **Management:** [[Current Sprint]] | [[Backlog]]
-- **Resources:** [[Tech Stack]] | [[Local Setup Guide]] | [[Glossary]]
+## 🧭 Project Management & Resources
+- **Tasks & Backlog:** [[Task_Tracker]]
+- **Setup & Glossary:** [[Developer_Onboarding]]
 
 ---
 *Tip: In Obsidian, use `Ctrl + O` (or `Cmd + O`) to quickly jump to any file.*
