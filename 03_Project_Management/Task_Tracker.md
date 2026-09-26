@@ -3,10 +3,11 @@
 **Purpose:** Consolidates active Sprint tasks and the future Backlog.
 
 ## 🏃 Active Sprint Tasks
-- [ ] Parse municipal guidelines into structured JSON/CSV criteria.
-- [ ] Generate synthetic applicant profile data.
+- [x] Parse municipal guidelines into structured JSON/CSV criteria.
+- [x] Generate synthetic applicant profile data.
+- [ ] Choose LLM framework and write core reasoning script (`engine.py`).
 - [ ] Build the GenAI conversational logic (NLU + Rule-Based Reasoning).
-- [ ] Develop the simple UI for the chatbot.
+- [ ] Develop the simple UI for the chatbot (e.g., Streamlit).
 
 ## 🧊 Backlog (Deliverables)
 - Document eligibility rules integration.

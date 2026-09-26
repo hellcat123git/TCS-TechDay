@@ -1,0 +1,56 @@
+[
+  {
+    "profile_id": "SYN-001",
+    "scenario": "Perfect Applicant",
+    "target_permit": "Food Truck Operation Permit",
+    "data": {
+      "applicant_age": 28,
+      "has_food_safety_certificate": true,
+      "uploaded_documents": [
+        "Valid Government ID",
+        "Food Handling & Safety Certificate",
+        "Vehicle Registration",
+        "Proof of Commercial Auto Insurance"
+      ]
+    },
+    "expected_outcome": "Eligible & Complete"
+  },
+  {
+    "profile_id": "SYN-002",
+    "scenario": "Missing Documents",
+    "target_permit": "Food Truck Operation Permit",
+    "data": {
+      "applicant_age": 35,
+      "has_food_safety_certificate": true,
+      "uploaded_documents": [
+        "Valid Government ID"
+      ]
+    },
+    "expected_outcome": "Incomplete - Missing Food Handling & Safety Certificate, Vehicle Registration, and Proof of Commercial Auto Insurance"
+  },
+  {
+    "profile_id": "SYN-003",
+    "scenario": "Ineligible due to age",
+    "target_permit": "Food Truck Operation Permit",
+    "data": {
+      "applicant_age": 17,
+      "has_food_safety_certificate": false,
+      "uploaded_documents": []
+    },
+    "expected_outcome": "Ineligible - Applicant must be at least 18 years old"
+  },
+  {
+    "profile_id": "SYN-004",
+    "scenario": "Wrong Zone for Extension",
+    "target_permit": "Residential Building Extension",
+    "data": {
+      "property_zone": "Commercial",
+      "extension_size_sqft": 500,
+      "uploaded_documents": [
+        "Property Deed",
+        "Architectural Blueprints"
+      ]
+    },
+    "expected_outcome": "Ineligible - Property must be zoned as Residential"
+  }
+]

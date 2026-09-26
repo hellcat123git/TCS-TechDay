@@ -1,0 +1,51 @@
+{
+  "permits": [
+    {
+      "permit_type": "Food Truck Operation Permit",
+      "description": "Required for operating a mobile food vending unit within city limits.",
+      "eligibility_criteria": [
+        {
+          "field": "applicant_age",
+          "operator": ">=",
+          "value": 18,
+          "error_message": "Applicant must be at least 18 years old."
+        },
+        {
+          "field": "has_food_safety_certificate",
+          "operator": "==",
+          "value": true,
+          "error_message": "A valid Food Handling & Safety Certificate is mandatory."
+        }
+      ],
+      "required_documents": [
+        "Valid Government ID",
+        "Food Handling & Safety Certificate",
+        "Vehicle Registration",
+        "Proof of Commercial Auto Insurance"
+      ]
+    },
+    {
+      "permit_type": "Residential Building Extension",
+      "description": "Required for adding square footage or structurally modifying an existing residential property.",
+      "eligibility_criteria": [
+        {
+          "field": "property_zone",
+          "operator": "==",
+          "value": "Residential",
+          "error_message": "Property must be zoned as Residential."
+        },
+        {
+          "field": "extension_size_sqft",
+          "operator": "<=",
+          "value": 1000,
+          "error_message": "Extensions over 1,000 sqft require a Commercial Development Permit instead."
+        }
+      ],
+      "required_documents": [
+        "Property Deed",
+        "Architectural Blueprints",
+        "HOA Approval Letter (if applicable)"
+      ]
+    }
+  ]
+}
